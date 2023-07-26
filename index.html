@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QSTP 2023</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="/main/assets/img/Quark-logo.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!-- Material Kit CSS -->
+    <link href="assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+
+  <body onresize="win()" onload="win()">
+    <!--Top Navbar -->
+    <nav
+      class="
+        navbar navbar-color-on-scroll navbar-transparent
+        fixed-top
+        navbar-expand-lg
+      "
+      color-on-scroll="100"
+    >
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="#" style="color: #97FEED;">QSTP 2023</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="material-icons">home</i> HOME
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://forms.gle/2LqTqXwhQHTqGKAe8" class="nav-link">
+                <i class="material-icons">how_to_reg</i> REGISTER
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- parallax header -->
+    
+    <div
+      class="page-header header-filter clear-filter"
+      data-parallax="true"
+      style="background-color: #04010b"
+    >
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/video.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="brand" style="margin-top: 150px">
+              <img
+                src="./qstp23/qstp2023.png"
+                style="width: 50%; min-width: 250px"
+              />
+              <h3 class="title" style="text-align: center;color: #97FEED;">
+                Quark Summer Technical Projects
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row association">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div style="text-align: center; margin-top: 0px;">
+              <img
+                src="./qstp23/quark3.png"
+                style="width: 30%; min-width: 150px"
+              />
+            </div>
+            <div
+              class="brand"
+              style="text-align: center; margin-top: 15px; margin-bottom: 0px"
+            >
+              in association with :
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="association-icons">
+              <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="./qstp23/gfg.png" style="height: 50px; margin: 0 10px 0 10px" />
+                <small style="margin: 10px">Geeks for Geeks</small>
+              </div>
+            <div style="margin-left: 25px;">
+              <img src="./qstp23/edvancernew.png" style="height: 30px; margin: 15px 10px 5px 10px" /><br />
+              <small style="margin: 10px">Edvancer</small>
+            </div>
+              <div>
+                <img
+                  src="./qstp23/preplacedpng.png"
+                  style="height: 40px;margin: 10px 10px 0px 10px"
+                /><br />
+                <small style="margin: 10px">Preplaced</small>
+              </div>
+            </div>
+            <div class="association-icons" style="margin-bottom:290px; margin-top: -100px;">
+              <div class="button-project" style="height: 20px;margin-top: 20px;margin-bottom:35px;text-align: center">
+                <button class="glow-on-hover" type="button" onclick="window.location.href='#projects'"><a href="#projects"><b>Projects</b> <i class="material-icons" style="display: inline-block;">expand_more</i></a></button>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main section -->
+    <div class="main main-raised" style="background-color: #1D5B79;color: #EDE4FF;">
+      <div class="container">
+        <div class="section" id="mainInfo">
+          <blockquote class="blockquote text-center">
+            <h3>
+              “Everyone here has the sense that right now is one of those moments <br />when we are influencing the future”
+            </h3>
+          </blockquote>
+          <br />
+          <p>
+            Welcome to the Quark Summer Technical Projects (QSTP) website!
+          </p>
+          <br />
+          <p>
+            Rules and Guidelines:
+          </p>
+          <br />
+          <p>
+            <!-- 1. QSTP is
+            <strong>Open for participation for Students from any College across the
+              Nation irrespective of their year of study </strong>and all projects are <strong>Free of Cost.</strong> -->
+              1. Free Registration: QSTP offers free registration for all participants, making it accessible to anyone with a passion for technology. Join us on this enriching journey!
+          </p>
+          <p>
+            <!-- 2. Completion of the project/course will award the participant with
+            a <strong>'Certificate of Completion'.</strong>Moreover, the top
+            participants in each course shall be awarded with a
+            <strong
+              >'Certificate of Excellence'. Certificates will be issued by
+              Quark'21 in association with GDG & WTM New Delhi and certified by
+              the faculty member</strong
+            > -->
+            2. Project Selection: Participants can choose up to four courses/projects from the extensive range of 29 projects available. Dive into multiple domains and broaden your knowledge base.
+          </p>
+          <p>
+            <!-- 3. Last Date of Registration for the Projects is
+            <strong>8th May.</strong> -->
+            3. Vouchers for Excellence: QSTP recognizes and rewards top-performing participants and those who successfully complete the courses with special vouchers, offering additional incentives and opportunities.
+          </p>
+          <p>
+            4. Application Deadline: The last date to register for QSTP is 20th July. Don't miss out on this opportunity, secure your spot in the program today!
+          </p>
+          <p>
+            5. Certificates of Completion and Excellence: Participants who successfully complete the projects will be awarded Certificates of Completion. Outstanding performers will receive Certificates of Excellence, celebrating their exceptional dedication and skills.
+          </p>
+          <br />
+          <br />
+          <p>
+            Join us on this exciting journey as we embrace the 10th edition of QSTP. Explore the projects, discover your passion, and enhance your technical prowess. QSTP is not just about learning; it's about pushing boundaries, unlocking potential, and fostering innovation.
+          </p>
+          <p>
+            For any inquiries or further information, please feel free to reach out to us at <a href="mailto:nishu.gujran@gmail.com" target="_blank">nishu.gujran@gmail.com</a> or contact us at <a href="https://wa.me/+917795662015" target="_blank">7795662015</a>.
+          </p>
+          <br />
+          <p>
+            We extend our heartfelt gratitude to our sponsors and partners for their generous support in making QSTP possible. Their collaboration allows us to provide an exceptional learning experience to participants.
+          </p>
+          <p>
+            If you have any questions or require assistance, please do not hesitate to contact us. We look forward to your participation in QSTP's 10th edition!
+          </p>
+          <br />
+          <p>
+            Best regards,
+          </p>
+          <p>
+            The QSTP Team
+          </p>
+          <br />
+          <p>
+            Registration Link : <a href="https://forms.gle/2LqTqXwhQHTqGKAe8" target="_blank">QSTP Registration</a>
+          </p>
+          <br />
+          <p>
+            Course Handouts : <a href="https://drive.google.com/drive/folders/1IuKFbkDsObgxndmoqctuI-yJLpAwkhaM" target="_blank">Course Handouts</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <div class="slideshow-container section" id="mainInfo" style="background-color: #0B666A;">
+    <h2 class="title" style="text-align: center;">Testimonials</h2>
+    
+    <div class="mySlides">
+      <q>The QSTP was very helpful in paving a way for me to learn web development. The mentors were pretty helpful and
+        doubts were solved well. The assignments were also nicely structured and the things taught were all in line with
+        what the modern web uses. </q>
+      <p class="author">- Pranay Varshney (Web Development)</p>
+    </div>
+      <div class="mySlides">
+        <q
+          >The QSTP in CAD Modelling was one of the most helpful and
+          interesting things I did in my summer. Before undertaking the
+          programme, I knew CAD modelling a bit but was very underconfident.
+          Along with that, I had forgotten a lot of Solidworks stuff and
+          wanted to learn it from scratch and execute the learnings on a
+          project. The QSTP helped me learn the basics of CAD modelling using
+          Solidworks from scratch and we even went on to complete a
+          drone-model building project using it. Apart from that, we also
+          learnt the basics of Ansys Student which can be used for static or
+          dynamic analysis. The instructors were very helpful and would
+          resolve any queries that the students faced.
+        </q>
+        <p class="author">- Aditya Majali (Intro. to CAD Modelling and Analysis)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>Was a very good introduction to robotics, and its the very reason im still doing work and learning in this field. The mentors especially were very good  and the whole program was well conducted..</q>
+        <p class="author">- Srujan (Robot Automation using ROS)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I had tried to learn ROS a few months before taking this course, but didn't understand the concepts very well, being an absolute beginner to coding. I really like how this was taken from the basics of Python and built from there.</q>
+        <p class="author">- Nikitha Kannan (Robot Automation using ROS)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I had always wanted to learn about photo and video editing but Photoshop's interface was so overwhelming that I could not do so. QSTP helped me get proper resources and mentors to get started with it and resolve my doubts if I got stuck on something.</q>
+        <p class="author">- Arjun Arihant (Photo Video Editing)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>A basic understanding of how the market works, along with an overview of the jargon used in there. This has helped me to understand what all goes behind buying and selling stocks. </q>
+        <p class="author">- Ahan Dalia (Intro. to Stock Market and Wealth Management)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>Better understanding of Reinforcement Learning Making connections with great people! </q>
+        <p class="author">- Devanshu Shah (Into. to Deep Learning)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I got much better at Fusion 360, learnt to use a lot more sensors with TinkerCAD. I absolutely enjoyed the course, it was wonderful</q>
+        <p class="author">- Nikitha (Intro. to Mechatronics)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>The course was about a trending topic at the time, helped me develop skills in that field</q>
+        <p class="author">- Delora Almeida (App Development)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I started QSTP with 0 knowledge in web development. But by the end, I understood what kind of technology is used in this domain. I got an internship outside with this experience. I made some projects myself. </q>
+        <p class="author">- Bolisetty Lokesh (Web Development)</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I learnt python , ROS and arduino and joined kratos as a team member in Controls subsystem.</q>
+        <p class="author">- Abhishek Jaswal (Project Kratos)</p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+    </div>
+    <hr />
+    <div class="main main-content" style="margin-top:20px;">
+      <div class="container">
+        <div class="section text-center">
+          <strong
+            ><h2 class="title" id="projects">
+              Following are the projects available in QSTP 2023
+            </h2>
+          </strong>
+          <hr />
+          
+          <!-- cards -->
+          <div class="cardsFlex">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <div class="rotating-card-container manual-flip manualtrigger">
+                    <div class="card card-rotate card-background">
+                        <div class="front front-background" style="background-image:url('qstp23/ecommercemern2.png'); background-size: cover;">
+                            <div class="card-body">
+                                <a href="#" data-disable-link="true">
+                                  <h2 class="card-title">eCommerce Website using MERN stack </h2>
+                                  <strong>Mentors:</strong>
+                                  <span class="badge badge-pill badge-default">Ruchik Bakhai</span>
+                                  <span class="badge badge-pill badge-default">Aryan Bhosale</span>
+                                  <span class="badge badge-pill badge-default">Sharad Arora</span>
+                                </a>
+                            </div>
+                            <div class="footer text-center show-info">
+                              <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                  <i class="material-icons">refresh</i> Show Info
+                              </button>
+                           </div>
+                        </div>
+            
+                        <div class="back" style="background: var(--primary-background);">
+                            <div class="">
+                            
+                                <p class="card-description">
+                                   <strong>Mentors:</strong> Ruchik Bakhai, Aryan Bhosale, and Sharad Arora 
+                                    <br><br>
+                                    <strong>Description:</strong>  
+                                    This project focuses on developing a full-fledged eCommerce website using the MERN (MongoDB, Express.js, React.js, Node.js) stack, which is widely used in modern web development.
+                                 </p>
+                                
+                            </div>
+                            <div class="footer text-center">
+                              <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                  <i class="material-icons">refresh</i>Back...
+                              </button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 ml-auto mr-auto">
+                <div class="rotating-card-container manual-flip manualtrigger">
+                    <div class="card card-rotate card-background">
+                        <div class="front front-background" style="background-image:url('qstp23/ecommercemobile1.png'); background-size: cover;">
+                            <div class="card-body">
+                                <a href="#" data-disable-link="true">
+                                    <h2 class="card-title">E-Commerce Mobile Application</h2>
+                                    <strong>Mentors:</strong>
+                                    <span class="badge badge-pill badge-default">Aditya Kulkarni</span>
+                                    <span class="badge badge-pill badge-default">Sayantan Bera</span>
+                                </a>
+                            </div>
+                            <div class="footer text-center show-info">
+                              <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                  <i class="material-icons">refresh</i> Show Info
+                              </button>
+                           </div>
+                        </div>
+            
+                        <div class="back" style="background: var(--primary-background);">
+                          <div class="">
+                              <p class="card-description">
+                                 <strong>Mentors:</strong> Aditya Kulkarni and Sayantan Bera
+                                  <br><br>
+                                  <strong>Description:</strong>  
+                                  The project aims to develop a robust and user-friendly e-commerce mobile application using the Flutter framework, enabling it to run seamlessly on both iOS and Android platforms. By leveraging the power of Flutter's single codebase and native-like performance, we intend to create a versatile shopping app that offers an immersive experience to customers.
+                               </p>
+                               
+                              
+                          </div>
+                          <div class="footer text-center">
+                            <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                <i class="material-icons">refresh</i>Back...
+                            </button>
+                         </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 ml-auto mr-auto">
+                <div class="rotating-card-container manual-flip manualtrigger">
+                    <div class="card card-rotate card-background">
+                        <div class="front front-background" style="background-image:url('qstp23/gamedevelopment2.png'); background-size: cover;">
+                            <div class="card-body">
+                                <a href="#" data-disable-link="true">
+                                    <h2 class="card-title" style="margin-bottom: 0;">Game Development with unity</h2>
+                                    <strong>Mentors:</strong>
+                                    <span class="badge badge-pill badge-default">Aman Rahman</span>
+                                    <span class="badge badge-pill badge-default">S V Sumanth</span>
+                                    <span class="badge badge-pill badge-default">Garvit jain</span>
+                                </a>
+                            </div>
+                            <div class="footer text-center show-info">
+                              <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                  <i class="material-icons">refresh</i> Show Info
+                              </button>
+                           </div>
+                        </div>
+            
+                        <div class="back" style="background: var(--primary-background);">
+                          <div class="">
+                              <p class="card-description">
+                                 <strong>Mentors:</strong> Aman Rahman, S V Sumanth, and Aditya Agarwal<br><br>
+                                  <strong>Description:</strong>
+                                  In this course, we will go over basics of game development using the unity game engine. We will be coding in c#. By the end of the course, students will be able to make simple 2d and 3d games.
+                               </p>
+                               
+                              
+                          </div>
+                          <div class="footer text-center">
+                            <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                <i class="material-icons">refresh</i>Back...
+                            </button>
+                         </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 ml-auto mr-auto">
+                <div class="rotating-card-container manual-flip manualtrigger">
+                    <div class="card card-rotate card-background">
+                        <div class="front front-background" style="background-image:url('qstp23/quantfinance.jpg'); background-size: cover;">
+                            <div class="card-body">
+                                <a href="#" data-disable-link="true">
+                                    <h2 class="card-title">Introduction to Quantitative finance </h2>
+                                    <strong>Mentors:</strong> <span class="badge badge-pill badge-default">Sourabh Patil</span>
+                                    <strong>Mentors:</strong> <span class="badge badge-pill badge-default">Vineet Ghosh</span>
+                                </a>
+                            </div>
+                            <div class="footer text-center show-info">
+                              <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                  <i class="material-icons">refresh</i> Show Info
+                              </button>
+                           </div>
+                        </div>
+            
+                        <div class="back" style="background: var(--primary-background);">
+                            <div class="">
+                            
+                                <p class="card-description">
+                                
+                                    <strong>Mentors:</strong> Sourabh Patil,Vineet Ghosh
+                                    <br><br>
+                                    <strong>Description:</strong>
+                                    This QSTP is aimed at introducing Algorithmic Trading by developing and coding various trading strategies. The strategies will be coded in python using market data. This project is mainly aimed at students interested in Quantitative Finance.
+                                 </p>
+                                
+                            </div>
+                            <div class="footer text-center">
+                              <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                  <i class="material-icons">refresh</i>Back...
+                              </button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+                <div class="col-md-6 ml-auto mr-auto">
+                  <div class="rotating-card-container manual-flip manualtrigger">
+                      <div class="card card-rotate card-background">
+                          <div class="front front-background" style="background-image:url('qstp23/equityresearch.png'); background-size: cover;">
+                              <div class="card-body" id="security">
+                                  <a href="#" data-disable-link="true">
+                                      <h3 class="card-title">Equity Research </h3>
+                                      <strong>Mentors:</strong>
+                                      <span class="badge badge-pill badge-default">Sayan Nandi</span>
+                                      <span class="badge badge-pill badge-default">Tanish Broker</span>
+                                      <span class="badge badge-pill badge-default">Riya Treasa</span>
+                                  </a>
+                              </div>
+                              <div class="footer text-center show-info">
+                                <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                    <i class="material-icons">refresh</i> Show Info
+                                </button>
+                             </div>
+                          </div>
+              
+                          <div class="back" style="background: var(--primary-background);">
+                              <div class="">
+                              
+                                <p class="card-description">
+                                    <strong>Mentors:</strong> Sayan Nandi, Tanish Broker, and Riya Treasa
+                                    <br>
+                                    <br>
+                                    <strong>Description:</strong>
+                                    The Course is designed to provide participants with comprehensive knowledge and practical skills required to conduct in-depth analysis and evaluation of investment opportunities in the stock market. This course aims to develop a solid understanding of equity research fundamentals and methodologies.  Upon completion of the course, participants will be equipped with the necessary knowledge and skills to conduct thorough analysis of financial statements and assess the financial health of companies, identify industry trends and evaluate sector-specific risks and opportunities and apply various valuation techniques to determine the intrinsic value of stocks.
+                                  </p>
+                                  
+                              </div>
+                              <div class="footer text-center">
+                                <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                    <i class="material-icons">refresh</i>Back...
+                                </button>
+                             </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 ml-auto mr-auto">
+                  <div class="rotating-card-container manual-flip manualtrigger">
+                      <div class="card card-rotate card-background">
+                          <div class="front front-background" style="background-image:url('qstp23/consultancy101.png'); background-size: cover;">
+                              <div class="card-body">
+                                  <a href="#" data-disable-link="true">
+                                      <h3 class="card-title">Consultancy 101</h3>
+                                      <strong>Mentors:</strong>
+                                      <span class="badge badge-pill badge-default">Pratham Chandra Jha</span>
+                                      <span class="badge badge-pill badge-default">Shwetabh Vats</span>
+                                      <span class="badge badge-pill badge-default">Sabyasachi Ghosh</span>
+                                  </a>
+                              </div>
+                              <div class="footer text-center show-info">
+                                <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                                    <i class="material-icons">refresh</i> Show Info
+                                </button>
+                             </div>
+                          </div>
+              
+                          <div class="back" style="background: var(--primary-background);">
+                            <div class="">
+                                <p class="card-description">
+                                   <strong>Mentors:</strong> Pratham Chandra Jha, Shwetabh Vats, and Sabyasachi Ghosh <br><br>
+                                    <strong>Description:</strong>
+                                    It will be a lecture series on the basics of consultancy, with weekly evaluative to track their progress											
+                                 </p>
+                                 
+                                
+                            </div>
+                            <div class="footer text-center">
+                              <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                                  <i class="material-icons">refresh</i>Back...
+                              </button>
+                           </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ml-auto mr-auto">
+                  <div class="rotating-card-container manual-flip manualtrigger">
+                    <div class="card card-rotate card-background">
+                      <div class="front front-background"
+                        style="background-image:url('qstp23/productmanagement.jpeg'); background-size: cover;">
+                        <div class="card-body">
+                          <a href="#" data-disable-link="true">
+                            <h2 class="card-title">Product Management</h2>
+                            <strong>Mentors:</strong>
+                            <span class="badge badge-pill badge-default">Pratham Chandra Jha</span>
+                            <span class="badge badge-pill badge-default">Harsha Battu</span>
+                            <span class="badge badge-pill badge-default">Bhavya Somani</span>
+                          </a>
+                        </div>
+                        <div class="footer text-center show-info">
+                          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+                            <i class="material-icons">refresh</i> Show Info
+                          </button>
+                        </div>
+                      </div>
+                
+                      <div class="back" style="background: var(--primary-background);">
+                        <div class="">
+                
+                          <p class="card-description">
+                            <strong>Mentors:</strong> Pratham Chandra Jha, Harsha Battu, and Bhavya Somani
+                            <br>
+                            <br>
+                            <strong>Description:</strong>
+                            It will dive deeper into the art of product management consisting of continuous evaluating to help participants upskill themselves
+                          </p>
+                
+                        </div>
+                        <div class="footer text-center">
+                          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+                            <i class="material-icons">refresh</i>Back...
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                
+<!-- generated code -->
+            
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/cryptoshield2.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title" style="font-size: 1.8rem;">CryptoShield: Exploring Cryptography's Vital Role in Cybersecurity</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Rhythm Bansal</span><span class="badge badge-pill badge-default">Anoushka Chakrabarty</span><span class="badge badge-pill badge-default">Hridya Arora</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Rhythm Bansal, Anoushka Chakrabarty, Hridya Arora<br><br>
+            <strong>Description:</strong>
+            CryptoShield is an immersive project that delves into cryptography's intricate world and its pivotal role in cybersecurity. Participants will understand cryptography's fundamental principles, algorithms, and applications through hands-on activities, workshops, and simulations. They will explore how cryptography ensures secure communication, data protection, and integrity verification in the digital realm.  Throughout the project, participants will gain practical experience in cryptographic techniques like encryption, hashing, signatures, and key management. They'll dive into modern protocols, analyze real-world encryption schemes, and learn vulnerability identification and threat mitigation.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/webshield2.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title" style="font-size: 1.8rem;">WebShield: Strengthening Web Security through Exploitation Awareness</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Kalash Poddar</span><span class="badge badge-pill badge-default">Gaurav Basu</span><span class="badge badge-pill badge-default">Om Patel</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Kalash Poddar, Gaurav Basu, Om Patel<br><br>
+            <strong>Description:</strong>
+            WebShield is an immersive and hands-on project designed to explore and combat web exploitation techniques in the realm of cybersecurity. As cyber threats continue to evolve, web applications remain a prime target for malicious actors. In this project, participants will dive deep into the world of web vulnerabilities, learning how to identify, exploit, and secure against common web-based attacks.  Throughout the 1.5 summer term, participants will engage in a series of interactive workshops, practical exercises, and real-world simulations. They will gain insights into various web exploitation techniques, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL injection, and more. By understanding how attackers exploit web applications, participants will be better equipped to strengthen the defenses of digital systems
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/codecrafts.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">CodeCraft: Unraveling Software Secrets</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Parth Shitole </span><span class="badge badge-pill badge-default">Pratyush Suvarna </span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Parth Shitole , Pratyush Suvarna <br><br>
+            <strong>Description:</strong>
+            Project Name: "CodeCraft: Unraveling Software Secrets"  Project Description:  "CodeCraft: Unraveling Software Secrets" is a beginner-level reverse engineering project that aims to introduce students to the intriguing world of decrypting and analyzing software. In this project, participants will explore various reverse engineering techniques and employ a range of tools to gain a deeper understanding of how software operates.  Project Overview:  During the project, students will be tasked with reverse engineering a simple executable file to uncover its hidden functionality. The primary objectives of the project include:  1. Introduction to Reverse Engineering: Participants will learn the fundamental concepts of reverse engineering, including disassembly, debugging, and binary analysis. They will utilize popular tools such as Ghidra, IDA Pro, Radare2, and a variety of debuggers.  2. Static and Dynamic Analysis: Using the aforementioned tools, students will employ both static and dynamic analysis techniques to inspect the executable file and gain insights into its structure and behavior.  3. Disassembly and Assembly: Participants will utilize disassemblers, including Ghidra, IDA Pro, and Radare2, to convert the machine code into assembly language and examine the low-level instructions.  4. Debugging and Patching: Students will use a range of debuggers such as GDB (GNU Debugger), x64dbg, and OllyDbg to analyze the program's execution flow, identify vulnerabilities, and apply patches to modify its behavior. They will have access to various debugger options.  5. Documentation and Analysis: Throughout the project, participants will document their findings, methodologies, and any challenges faced during the reverse engineering process. They will provide a comprehensive analysis of the software's inner workings using the tools mentioned above.  Project Benefits:  1. Hands-on Experience: Gain practical reverse engineering skills through real-world projects. 2. Critical Thinking: Enhance problem-solving and analytical abilities. 3. Collaboration: Foster teamwork and knowledge exchange among participants. 4. Cybersecurity Exploration: Discover the basics of cybersecurity through reverse engineering. 5. Skill Development: Acquire essential disassembly, debugging, and analysis skills.  By the end of the project, participants will have gained practical experience in reverse engineering using a variety of industry-standard tools, fostering a deeper understanding of software analysis techniques.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/quizzing1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Quizzing</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Prayag Mohanty</span><span class="badge badge-pill badge-default">Arjun Jeewan</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Prayag Mohanty, Arjun Jeewan<br><br>
+            <strong>Description:</strong>
+            This workshop, aims to guide you through the art of quizzing. a well-crafted question can spark curiosity and stimulate critical thinking. We will explore various techniques for collecting and organizing facts, helping you become a treasure trove of knowledge. From history to science, pop culture to literature, you will learn how to curate a diverse range of topics that challenge and entertain your audience. We will cover different formats, such as multiple-choice, audio-visual rounds, rapid-fire rounds, and more. With each round, you will gain insights into how to create a balanced and engaging quiz that keeps participants engaged from start to finish. Finally, we will guide you on the path to becoming a skilled quizmaster. You will learn the art of hosting a quiz event, from setting the tone and maintaining the flow to engaging with participants
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/robotics1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Robotics and Automation</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Shantanu Deshmukh</span><span class="badge badge-pill badge-default">Arjun Puthli</span><span class="badge badge-pill badge-default">Aasim Sayyed</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Shantanu Deshmukh, Arjun Puthli, Aasim Sayyed<br><br>
+            <strong>Description:</strong>
+            Automation, Control and design of robots is a fast growing field with exciting innovations coming out with a rapid pace. In this course we hope to familiarize theparticipants with the basic tools and techniques that are at the core of such developments.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/aerodmotor1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Aerodynamics in Motorsports</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Divya Patel</span><span class="badge badge-pill badge-default">Saransh Paliwal</span><span class="badge badge-pill badge-default">Debangshu Chowdhury</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Divya Patel, Saransh Paliwal, Debangshu Chowdhury<br><br>
+            <strong>Description:</strong>
+            This course provides an in-depth exploration of aerodynamics in the context of motorsport. Students will learn the principles of fluid dynamics, analyze aerodynamic forces, study key components, and examine the impact of aerodynamics on vehicle dynamics and performance through CFD (Computational fluid dynamics) simulation
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/quantumcomputing1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Quantum Computing with Qiskit</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Advay Burte </span><span class="badge badge-pill badge-default">Gitanjali Rajulal</span><span class="badge badge-pill badge-default">Harshavardhan Hajeri</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Advay Burte , Gitanjali Rajulal, Harshavardhan Hajeri<br><br>
+            <strong>Description:</strong>
+            The project will teach the basic principles of Quantum Computing and physics required to understand it. Building on this, we will use Qiskit and IBM-Q to simulate quantum circuits and run simple quantum algorithms, along with this we will also look into various features of Qiskit.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/competitivecoding2.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Competitive Coding Conclave</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Shaun Mathew</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Shaun Mathew<br><br>
+            <strong>Description:</strong>
+            Join our immersive Competitive Programming Camp, spanning 9 knowledge-packed sessions, each accompanied by a problem set for practice. Elevate your skills with 3 exhilarating contests featuring original problems. Embark on a journey starting from the fundamentals of C++, mastering crucial concepts like I/O and arithmetic as we gradually nurture your problem-solving intuition. Uncover the power of diverse data structures offered by C++, and unleash your potential with a repertoire of algorithmic techniques, such as frequency arrays, prefix arrays, greedy algorithms, complete search, binary search, two pointers, modulo arithmetic, and the sieve. Immerse yourself in our dynamic sessions, equipping yourself with the necessary tools to conquer the realm of competitive programming. Through captivating contests and meticulously crafted problem sets, gain invaluable hands-on experience and refine your implementation skills with these multifaceted techniques. Prepare to excel and leave your mark in the world of competitive programming.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/codecraft.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">CodeCrafts</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Shaun Mathew</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Shaun Mathew<br><br>
+            <strong>Description:</strong>
+            This camp serves as an excellent stepping stone for participants, introducing them to the world of Open Source and guiding them towards making contributions. Throughout the sessions, we will cover a diverse range of topics, including Object-Oriented Programming, Git, GitHub, STL, Pointers, Streams, and File Handling. Participants will also become familiarised with and prepared to participate in various Open Source events like HacktoberFest and Google Summer of Code. By the end of the camp, participants will have gained a solid understanding of various concepts such as Pointers, Structs, Classes, Overloading, Constructor/Destructor, Operators, Functors, Inheritance, Virtual Functions, Templates, the workings of STL, as well as Streams and File Handling. Additionally, participants will be introduced to numerous modern C++ conventions, features, and useful tricks along their journey.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/ml1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Intro to ML, DL and computer vision</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Shailesh</span><span class="badge badge-pill badge-default">Sumedh Chatterjee </span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Shailesh, Sumedh Chatterjee <br><br>
+            <strong>Description:</strong>
+            A collection of beginner-friendly sessions to uncover the limitless possibilities of AI. Learn the foundations of machine learning, deep learning, computer vision and gain hands-on experience by solving data analytics challenges!
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/kratos1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Project Kratos Electronics</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Murali P Nair</span><span class="badge badge-pill badge-default">Aashish Kanted</span><span class="badge badge-pill badge-default">Vedant Randive</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Murali P Nair, Aashish Kanted, Vedant Randive<br><br>
+            <strong>Description:</strong>
+            Project Kratos is the student run rover-building team of BITS Goa, involved in multi-disciplinary engineering. This QSTP will be conducted and mentored by the core team of the electronics subsystem of Project Kratos. The QSTP will cover sensors, actuators, Python programming, Robot Operating System (ROS), and printed circuit board (PCB) design. The course emphasizes practical application, enabling students to contribute effectively to the team. By the end of the QSTP, students will have a solid understanding of the rover's electronics and will be eligible for the induction process.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/kratos2.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Project Kratos - Mechanical </h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Amal </span><span class="badge badge-pill badge-default">Vishnu Vardhan Reddy</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Amal , Vishnu Vardhan Reddy<br><br>
+            <strong>Description:</strong>
+            The QSTP involves teaching the participants basics of modelling in solidworks and basic design principles. 
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/kratos3.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Project Kratos Autonomous</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Saket Nerurkar</span><span class="badge badge-pill badge-default">Hardaat Singh</span><span class="badge badge-pill badge-default">Yash Bhisikar</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Saket Nerurkar, Hardaat Singh, Yash Bhisikar<br><br>
+            <strong>Description:</strong>
+            The project is taken by the autonomous subsystem of Kratos. The project will be oriented towards learning the basics of ROS, and learning and implementing mapping and planning algorithms in ROS.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/competitivecoding1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Competitive Programming</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Naman Agarwal </span><span class="badge badge-pill badge-default">Vishesh Goyal</span><span class="badge badge-pill badge-default">Nirmal Govindaraj</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Naman Agarwal , Vishesh Goyal, Nirmal Govindaraj<br><br>
+            <strong>Description:</strong>
+            Competitive programming is a mental sport that involves writing computer programs to solve mathematical or logical problems. It is a great way to improve your problem-solving skills, learn new algorithms and data structures, and get better at programming in general. Along with this it is a lot of fun.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/environmentalscience.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Environmental Science</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Hansiddh Thakur</span><span class="badge badge-pill badge-default">Rohit Akash</span><span class="badge badge-pill badge-default">Megh Bafna</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Hansiddh Thakur, Rohit Akash, Megh Bafna<br><br>
+            <strong>Description:</strong>
+            The objective of this course is to provide students with a comprehensive understanding of key environmental concepts and issues. Through the exploration of three essential modules - energy conservation, carbon sequestration, and waste management - students will develop a strong foundation in environmental science. The course aims to equip students with the knowledge necessary to understand the relationships between human activities and the environment, and to propose sustainable solutions to pressing environmental challenges. By examining topics such as energy efficiency, greenhouse gas reduction, and waste reduction strategies, students will gain insights into the urgent need for environmental conservation and understand how their actions can contribute to a more sustainable future. The final part of the course involves application of  the knowledge gained throughout the three weeks to build upon a project that addresses a serious environmental challenge thereby empowering students to make informed decisions and actively participate in the global efforts to protect our environment.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/mechatronics1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Mechatronics </h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Ishan Gokhale</span><span class="badge badge-pill badge-default">Aasim Sayyed</span><span class="badge badge-pill badge-default">Shantanu Deshmukh</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Ishan Gokhale, Aasim Sayyed, Shantanu Deshmukh<br><br>
+            <strong>Description:</strong>
+            This course aims to introduce the basic concepts of core Mechanical Design and Electronic Circuits, and their application in designing hardware for machines like robots
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/battery1.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Basics of Battery Management System</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Pratham Potnis</span><span class="badge badge-pill badge-default">Samrudh</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Pratham Potnis, Samrudh<br><br>
+            <strong>Description:</strong>
+            This project by Team Gigawatt (SAE) will be divided into two mini projects. The first part will deal with thermal management. The second project will focus on cell balancing. This will include understanding the concept of a Battery Management System (BMS) and its implementation.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/kratos4.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Project Kratos: Life-detection</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Shireen Shaikh</span><span class="badge badge-pill badge-default">Sreekar Yadlapalli</span><span class="badge badge-pill badge-default">Sachin Gaur</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Shireen Shaikh, Sreekar Yadlapalli, Sachin Gaur<br><br>
+            <strong>Description:</strong>
+            Project Kratos is the student run rover-building team of BITS Goa, involved in multi-disciplinary engineering. This QSTP will conducted and mentored by the core team of the life-detection subsystem of Project Kratos. The program will cover chemical tests, astrobiology, geology and machine learning. The course emphasizes practical application, enabling students to contribute effectively to the team. By the end of the QSTP, students will have a solid understanding of the subsystem’s workings and will be eligible for the induction process.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/cinematography.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Cinematography and Film Editing </h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Manduva Nihanth </span><span class="badge badge-pill badge-default">Anshul Goel </span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Manduva Nihanth , Anshul Goel <br><br>
+            <strong>Description:</strong>
+            This project is divided into two parts one is Cinematography and the other is Editing , first part will deal with all aspects of cinematography starting from conceptualization to execution and also analysis of films , 2nd part deals with teaching you the tools in editing using softwares like Premiere Pro and Da Vinci Resolve , and this part also deals with teaching concepts of editing for the films .
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/computationaldrug.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Computational Drug Discovery</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">iGEM BITS Goa</span><span class="badge badge-pill badge-default">Rishikesh Panda</span><span class="badge badge-pill badge-default">Aditi Shimpi </span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>iGEM BITS Goa, Rishikesh Panda, Aditi Shimpi <br><br>
+            <strong>Description:</strong>
+            Track 1: Build and deploy an AI assisted Drug Discovery Pipeline and learn about Exploratory Data Analysis and Machine Learning models.          Track 2: An introduction to structure based drug discovery which includes protein structure modelling and protein - ligand docking. 
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/photoediting.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Photo and Video Editing</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Mohit Tiwari</span><span class="badge badge-pill badge-default">Suchith Naga Sri Dontaraju</span><span class="badge badge-pill badge-default">Daksh Seth</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Mohit Tiwari, Suchith Naga Sri Dontaraju, Daksh Seth<br><br>
+            <strong>Description:</strong>
+            Learn photo and video editing from the coordinators of the Department of Photography, BITS Goa. This hands-on course focuses on Adobe Photoshop and Premiere Pro, providing curated video tutorials and practical assignments. Gain essential skills to edit and enhance photos, manipulate colors, and create stunning compositions using Photoshop. Develop proficiency in video editing, visual effects, and professional-grade productions with Premiere Pro. The course encourages independent learning, empowering participants to upskill and adapt. Join us to unlock your creative potential in the captivating world of photo and video editing.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/ml2.png'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Introduction to Machine Learning</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Rishav Mukherji</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Rishav Mukherji<br><br>
+            <strong>Description:</strong>
+            The course intends to help students with no experience in machine learning take their first steps in the field. We will start off with the basic Machine learning theory and look into essential tools needed for ML; libraries like numpy and pandas. Then we will proceed to teach the students about various machine learning algorithms, the maths behind it.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/corporate.jpeg'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Corporate Leadership and Strategy</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Pratyaksh Pradeev</span><span class="badge badge-pill badge-default">Priyank Pipaliya</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Pratyaksh Pradeev, Priyank Pipaliya<br><br>
+            <strong>Description:</strong>
+            The project contains aspects necessary for being effective in a corporate setting; being able to lead within a team, enhancing organizational efficiency (basically getting more output from less company resources), negotiation, and strategy among other skills
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+
+<div class="col-md-6 ml-auto mr-auto">
+  <div class="rotating-card-container manual-flip manualtrigger">
+    <div class="card card-rotate card-background">
+      <div class="front front-background"
+        style="background-image:url('qstp23/web3.jpeg'); background-size: cover;">
+        <div class="card-body">
+          <a href="#" data-disable-link="true">
+            <h2 class="card-title">Hands-On Introduction to Web 3.0</h2>
+            <strong>Mentors:</strong> 
+            <span class="badge badge-pill badge-default">Yash Somani</span>
+          </a>
+        </div>
+        <div class="footer text-center show-info">
+          <button type="button" name="button" class="btn btn-success btn-fill btn-round btn-rotate">
+            <i class="material-icons">refresh</i> Show Info
+          </button>
+        </div>
+      </div>
+
+      <div class="back" style="background: var(--primary-background);">
+        <div class="">
+          <p class="card-description">
+            <strong>Mentors:</strong>Yash Somani<br><br>
+            <strong>Description:</strong>
+            In this project, participants will delve into the fundamental concepts of Blockchain technology, focusing specifically on the utilization of Solidity as a programming language. Through hands-on exercises and practical examples, participants will gain proficiency in writing Smart Contracts using Solidity. They will also explore essential development environments such as Remix and Hardhat, which provide powerful tools and frameworks for building decentralized applications. Additionally, participants will harness the capabilities of Alchemy as a reliable and efficient RPC (Remote Procedure Call) provider, enabling seamless communication with the Ethereum network. By mastering these essential tools and technologies, participants will be equipped to navigate the exciting world of Blockchain development with confidence and expertise.
+          </p>
+
+
+        </div>
+        <div class="footer text-center">
+          <button type="button" name="button" class="btn btn-info btn-round btn-rotate back-btn">
+            <i class="material-icons">refresh</i>Back...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+
+<!-- generated code ends -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-default" style="z-index: 2 !important">
+        <div class="container">
+          <div class="copyright float-right" style="z-index: 2 !important">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            , made with <i class="material-icons">favorite</i> by
+            <a href="https://devsoc.club/" target="blank">DEVSOC</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- footer -->
+
+    <!-- removing class manual-flip -->
+    <script>
+      function win() {
+        var width = $(window).width();
+        console.log(width);
+        var elements = document.getElementsByClassName("manualtrigger");
+        if (width < 1025) {
+          for (var i = 0, len = elements.length; i < len; i++) {
+            elements[i].classList.add("manual-flip");
+          }
+        } else {
+          for (var i = 0, len = elements.length; i < len; i++) {
+            elements[i].classList.remove("manual-flip");
+          }
+        }
+      }
+    </script>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script
+      src="assets/js/core/bootstrap-material-design.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/plugins/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script
+      src="assets/js/plugins/bootstrap-datetimepicker.js"
+      type="text/javascript"
+    ></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script
+      src="assets/js/plugins/nouislider.min.js"
+      type="text/javascript"
+    ></script>
+    <!--  Google Maps Plugin  -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+    ></script>
+    <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+    <script src="assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script
+      src="assets/js/plugins/bootstrap-selectpicker.js"
+      type="text/javascript"
+    ></script>
+    <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+    <script
+      src="assets/js/plugins/jasny-bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script
+      src="assets/js/material-kit.js?v=2.2.0"
+      type="text/javascript"
+    ></script>
+    <!--Slideshow JS-->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      disableLinks();
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      function disableLinks() {
+        let links = document.querySelectorAll('a[data-disable-link="true"]');
+        links.forEach(link => {
+          link.addEventListener('click', e => {
+            e.preventDefault();
+          });
+        });
+      }
+
+    </script>
+  </body>
+</html>
